@@ -1,0 +1,108 @@
+/* Fira Sans */
+.open-sans-normal {
+  font-family: "Fira Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* ------------ */
+
+
+/* No Margin and Padding */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ------------ */
+
+
+/* Shared Styles */
+.text-default-color{
+    color: #0E0E0E;
+}
+
+.light-green-text-color{
+    color: #006A50;
+}
+/* ------------ */
+
+
+/* Body */
+body{
+    background-color:  rgba(245, 245, 245, 1);
+}
+/* ------------ */
+
+
+/* Navbar Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 160px;
+}
+
+.bangladesh-title{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.sign-in-btn{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    text-align: center;
+    background-color: white;
+}
+/* ------------ */
+
+
+/* Banner Styles */
+.banner{
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    margin: 20px 160px 0px 160px;
+    padding: 80px 100px;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+}
+
+.banner-items{
+    text-align: start;
+    width: 622px 326px;
+    margin: 117px 598.01px 117px 59.99px;
+}
+
+.banner-title{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.banner-description{
+    font-weight: 700;
+    font-size: 56px;
+    margin-bottom: 24px;
+    color: #0E0E0E;
+}
+
+.banner-btn{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+    background-color: #006A50;
+}
+
+.banner-image{
+    width: 474.03px;
+    height: 400px;
+    align-items: stretch;
+}
