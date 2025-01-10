@@ -17,17 +17,6 @@
 /* ------------ */
 
 
-/* Shared Styles */
-.text-default-color{
-    color: #0E0E0E;
-}
-
-.light-green-text-color{
-    color: #006A50;
-}
-/* ------------ */
-
-
 /* Body */
 body{
     background-color:  rgba(245, 245, 245, 1);
@@ -46,6 +35,7 @@ nav{
 .bangladesh-title{
     font-weight: 700;
     font-size: 32px;
+    color: #0E0E0E;
 }
 
 .sign-in-btn{
@@ -56,6 +46,7 @@ nav{
     border: 1px solid #006A50;
     text-align: center;
     background-color: white;
+    color: #006A50;
 }
 /* ------------ */
 
@@ -106,3 +97,92 @@ nav{
     height: 400px;
     align-items: stretch;
 }
+/* ------------ */
+
+
+/* Vision Section Styles */
+.vision-of-future{
+    margin: 80px 160px 0px 160px;
+}
+
+.vision-section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+
+.vision-section-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.digital-box{
+    width: 410.67px;
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.green-box{
+    width: 410.67px;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.modern-box{
+    width: 410.67px;
+    background-color: #F7EBCF;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.vision-image{
+    margin-bottom: 24px;
+}
+
+.vision-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+
+.vision-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+
+.vision-btn{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.digital-btn{
+    background-color: rgba(84, 144, 245, 1);
+}
+
+.green-btn{
+    background-color: rgba(9, 161, 92, 1);
+}
+
+.modern-btn{
+    background-color: rgba(255, 194, 57, 1);
+}
+/* ------------ */
