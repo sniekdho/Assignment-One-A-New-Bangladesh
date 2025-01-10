@@ -43,10 +43,9 @@ nav{
     font-size: 18px;
     padding: 15px 30px;
     border-radius: 8px;
-    border: 1px solid #006A50;
+    border: 1px solid rgba(0, 106, 80, 1);
     text-align: center;
-    background-color: white;
-    color: #006A50;
+    color: rgba(0, 106, 80, 1);
 }
 /* ------------ */
 
@@ -100,7 +99,7 @@ nav{
 /* ------------ */
 
 
-/* Vision Section Styles */
+/* Vision of Future Section Styles */
 .vision-of-future{
     margin: 80px 160px 0px 160px;
 }
@@ -259,3 +258,110 @@ nav{
     border: none;
     background-color: rgba(0, 106, 80, 1);
 }
+/* ------------ */
+
+
+/* Donate Bangladesh Section Styles */
+.donate-bangladesh{
+    margin: 80px 160px 0px 160px;
+}
+
+.donate-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.donate-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.donate-btn-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin: 0px 104.5px 32px 104.5px;
+}
+
+.donate-btn-100{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 16px;
+    border: none;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.donate-btn-200{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 16px;
+    border: none;
+    padding: 40px;
+    background-color: rgba(198, 228, 214, 1);
+    text-align: center;
+}
+
+.donate-btn-500{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 16px;
+    border: none;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.donate-btn-1000{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 16px;
+    border: none;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.donate-other-container{
+    display: flex;
+    justify-content: center;
+    margin: 0px 124px 32px 124px;
+}
+
+.donate-other{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    padding: 20px 40px;
+    width: 1032px;
+    text-align: center;
+    border: none;
+}
+
+.donate-done-btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-btn-done{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 106, 80, 1);
+}
+/* ------------ */
