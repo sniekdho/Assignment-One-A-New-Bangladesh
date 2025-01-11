@@ -365,3 +365,80 @@ nav{
     background-color: rgba(0, 106, 80, 1);
 }
 /* ------------ */
+
+
+/* Donate Bangladesh Section Styles */
+.news-letter{
+    margin: 80px 160px;
+    padding: 80px 100px;
+    border-radius: 24px;
+    border: none;
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.news-letter-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+    margin: 80px 329px 16px 329px;
+}
+
+.news-letter-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    margin: 0px 329px 24px 329px;
+}
+
+.news-letter-subscribe-container{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin-bottom: 24px;
+    margin: 0px 265px 24px 265px;
+}
+
+.news-letter-email-box{
+    display: flex;
+    justify-content: center;
+}
+
+.news-letter-email{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.3);
+    padding: 18px 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    width: 600px;
+}
+
+.news-letter-subscribe-box{
+    display: flex;
+    justify-content: center;
+}
+
+.news-letter-subscribe{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    padding: 17px 34px;
+    background-color: rgba(0, 106, 80, 1);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    width: 150px;
+}
+
+.news-letter-agreement{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    margin: 0px 329px 80px 329px;
+}
+/* ------------ */
