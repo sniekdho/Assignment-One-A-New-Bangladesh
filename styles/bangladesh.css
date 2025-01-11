@@ -556,3 +556,31 @@ nav{
     margin: 0px 329px 80px 329px;
 }
 /* ------------ */
+
+
+/* Footer Styles */
+footer{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 50px 160px;
+    text-align: center;
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 1);
+    /* margin-top: 50px;
+    margin-bottom: 32px; */
+}
+
+hr{
+    margin: 32px 239px 32px 239px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+footer>div{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+/* ------------ */
