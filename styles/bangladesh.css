@@ -118,6 +118,10 @@ nav{
     margin: 80px 160px 0px 160px;
 }
 
+.vision-heading-container{
+    margin-bottom: 32px;
+}
+
 .vision-section-title{
     font-weight: 700;
     font-size: 40px;
@@ -135,7 +139,7 @@ nav{
     display: flex;
     gap: 24px;
     justify-content: space-between;
-    margin-top: 32px;
+    margin-bottom: 32px;
     align-items: center;
 }
 
@@ -224,6 +228,43 @@ nav{
 
 .modern-btn:hover{
     background-color: rgba(204, 154, 45, 1);
+}
+/* ------------ */
+
+
+/* Quote Section Styles */
+.quote-container{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50px 30px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 48px 24px;
+    border-radius: 16px;
+    border: none;
+}
+
+.quote-description{
+    margin: 48px 24px 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.quote-author-container{
+    margin: 0px 24px 48px 24px;
+}
+
+.quote-author{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 4px;
+}
+
+.quote-author-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
 }
 /* ------------ */
 
