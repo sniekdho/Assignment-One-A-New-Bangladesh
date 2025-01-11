@@ -29,6 +29,7 @@ button{
 }
 /* ------------ */
 
+
 /* Navbar Styles */
 nav{
     display: flex;
@@ -143,6 +144,11 @@ nav{
     background-color: rgba(84, 144, 245, 0.2);
     padding: 32px;
     border-radius: 16px;
+    cursor: pointer;
+}
+
+.digital-box:hover{
+    background-color: rgba(84, 144, 245, 0.6);
 }
 
 .green-box{
@@ -150,13 +156,23 @@ nav{
     background-color: rgba(198, 228, 214, 1);
     padding: 32px;
     border-radius: 16px;
+    cursor: pointer;
+}
+
+.green-box:hover{
+    background-color: rgba(173, 208, 188, 1);
 }
 
 .modern-box{
     width: 410.67px;
-    background-color: #F7EBCF;
+    background-color: rgba(247, 235, 207, 1);
     padding: 32px;
     border-radius: 16px;
+    cursor: pointer;
+}
+
+.modern-box:hover{
+    background-color: rgba(227, 217, 181, 1);
 }
 
 .vision-image{
@@ -240,6 +256,11 @@ nav{
     border: none;
     background-color: white;
     margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.news-container:hover{
+    background-color: rgba(173, 216, 230, 1);
 }
 
 .news-image{
